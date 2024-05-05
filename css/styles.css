@@ -11,7 +11,6 @@ a:hover {
   outline: 0;
 }
 
-/* Responsive Header was used from A4 assignment */
 @font-face {
   font-family: "responsivenav";
   src: url("../icons/responsivenav.eot");
@@ -34,7 +33,7 @@ a:hover {
 }
 
 .nav-toggle:before {
-  color: black; /* edit this to change the icon color */
+  color: white; /* edit this to change the icon color */
   font: normal 28px/55px "responsivenav"; /* edit font-size (28px) to change the icon size */
   text-transform: none;
   text-align: center;
@@ -259,10 +258,7 @@ header{
   display: flex;
   justify-content: center;
   padding: 1rem;
-  
 }
-
-
 .student {
   margin: 3rem 0rem 10.6rem 0rem;
 }
@@ -374,15 +370,12 @@ h1 {
     margin: 0 0 30px 0;
     text-align: center;
 }
-  
+  input[type="tel"],
   input[type="text"],
   input[type="password"],
   input[type="date"],
   input[type="datetime"],
   input[type="email"],
-  input[type="number"],
-  input[type="search"],
-  input[type="tel"],
   input[type="time"],
   input[type="url"],
   input[type="message"],
@@ -422,7 +415,6 @@ textarea::placeholder {
   label:required {
     color: #63BCAA;
   }
-  
   
   select {
     padding: 6px;
