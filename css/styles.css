@@ -249,7 +249,12 @@ header{
 .instructorlessons p {
   text-align: center;
 }
-
+.calendar1{
+  display: flex;
+  padding: 1rem;
+  margin: 10px;
+  justify-content: center;
+}
 .calendar2 {
   display: flex;
   justify-content: center;
@@ -486,12 +491,6 @@ textarea::placeholder {
     border: none;
   }
   
-  .calendar1{
-    display: flex;
-    padding: 1rem;
-    margin: 10px;
-    flex-direction: column;
-  }
 
   legend {
     font-size: 1.4em;
